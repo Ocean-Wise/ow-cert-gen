@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "deploy": "now --public && now alias && now rm $npm_package_now_name --safe --yes"
+  },
+  "now": {
+    "name": "ow-certificat-francais",
+    "alias": [
+      "ow-certificat-francais"
+    ]
+  }
+}
